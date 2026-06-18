@@ -7,7 +7,6 @@ data/
 auto_test_results_*/
 auto_train_results_*/
 shap_test_output/
-*.pdf
 
 # 執行產物與暫時量測檔
 vanilla_rnn/timing_analysis.ipynb
