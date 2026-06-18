@@ -36,6 +36,26 @@
 
 ---
 
+## B2. 論文「圖」的重現（Figs 5.1–5.4）— 使用者目標明列
+
+論文的圖都是 **runtime / timing 曲線**。因論文未記載硬體（D6），**絕對秒數不可比**，
+但**圖的形狀/趨勢可重現**：verifier 每次 run 都會把 `timing_stats` 寫進 JSON
+（`popqorn`=baseline bound 時間、`zs_total`=refinement 時間、`shap`=SHAP 計算時間），
+我們聚合各配置後用 matplotlib 重畫同款圖，與論文並排比對趨勢。
+
+| 圖 | 論文內容 | 我們的重現方式 | 比對層級 |
+|---|---|---|---|
+| **Fig 5.1** | baseline vs refinement 平均時間 × m（分 h、act） | 由各配置 `popqorn` / `zs_total` 平均時間繪製 | 趨勢（refinement 較慢、隨 m/h 上升） |
+| **Fig 5.2** | 時間比 refinement/baseline × m | `zs_total` / `popqorn` 比值 | 趨勢（比值恆 >1） |
+| **Fig 5.3** | SHAP 計算時間 × m | `shap` 平均時間 | 趨勢（隨 m 上升） |
+| **Fig 5.4** | MNIST 上 RNN(relu/tanh)/LSTM 平均時間 × m,h | 同上、跨網路族 | 趨勢（LSTM ≫ vanilla RNN） |
+
+- **產出**：`$WS/results/figures/fig5_{1..4}_repro.png` ＋ 一份「趨勢一致/不一致」對照說明。
+- **作法**：driver 全程保留每配置 timing；grid 跑完後由 `$WS/drivers/make_figures.py` 一次生成。
+- **誠實限制**：絕對秒數受我們的 CPU（torch 2.12+cpu）影響，不等於論文；**只主張趨勢重現**。
+
+---
+
 ## C. 逐表執行矩陣（精確指令）
 
 通用 verifier 參數（對齊 §A）：`--N 50 --p 2 --eps-min 0.005 --eps-max 0.1 --max-splits 5`（CPU，不帶 `--cuda`）。
@@ -135,6 +155,7 @@ python lstm/lstm_zerosplit_verifier.py --dataset mnist \
 - [ ] 三張在範圍內的表（5.3/5.1/5.4）每格都有「論文 vs 我們」數值。
 - [ ] 論文三項核心趨勢（§E）在我們的結果中成立或被明確反證。
 - [ ] 所有偏離以 D1/D5/D6 解釋，無「不明原因」落差。
+- [ ] **Fig 5.1–5.4 以我們的 timing 重畫，趨勢與論文一致或被明確反證（§B2）。**
 - [ ] 全程 repo 唯讀無污染。
 
 ## J. 請你確認的項目（sign-off）
