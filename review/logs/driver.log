@@ -1,0 +1,319 @@
+[2026-06-18 11:48:27] === run_all 啟動：80 配置（5.3×32 / 5.4×16 / 5.1×32）===
+[2026-06-18 11:48:27] [1/80] 5.3/rnn/mnist/h4/m1/relu
+[2026-06-18 11:48:27] SKIP 5.3/rnn/mnist/h4/m1/relu  (已有結果 evr_rnn_relu_hidden4_ts1_eps0.005-0.1_p2_N50_splits5.json)
+[2026-06-18 11:48:27] [2/80] 5.3/rnn/mnist/h4/m1/tanh
+[2026-06-18 11:48:27] TRAIN 5.3/rnn/mnist/h4/m1/tanh
+[2026-06-18 11:49:05] VERIFY 5.3/rnn/mnist/h4/m1/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 11:49:14] DONE 5.3/rnn/mnist/h4/m1/tanh  {'zs_better': 2, 'both_fail': 9, 'pq_all_pass': 39}  (46.6s)
+[2026-06-18 11:49:14] [3/80] 5.3/rnn/mnist/h8/m1/relu
+[2026-06-18 11:49:14] TRAIN 5.3/rnn/mnist/h8/m1/relu
+[2026-06-18 11:49:52] VERIFY 5.3/rnn/mnist/h8/m1/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 11:49:58] DONE 5.3/rnn/mnist/h8/m1/relu  {'zs_better': 0, 'both_fail': 6, 'pq_all_pass': 44}  (44.3s)
+[2026-06-18 11:49:58] [4/80] 5.3/rnn/mnist/h8/m1/tanh
+[2026-06-18 11:49:58] TRAIN 5.3/rnn/mnist/h8/m1/tanh
+[2026-06-18 11:50:36] VERIFY 5.3/rnn/mnist/h8/m1/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 11:50:46] DONE 5.3/rnn/mnist/h8/m1/tanh  {'zs_better': 3, 'both_fail': 6, 'pq_all_pass': 41}  (47.6s)
+[2026-06-18 11:50:46] [5/80] 5.3/rnn/mnist/h16/m1/relu
+[2026-06-18 11:50:46] TRAIN 5.3/rnn/mnist/h16/m1/relu
+[2026-06-18 11:51:24] VERIFY 5.3/rnn/mnist/h16/m1/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 11:51:26] DONE 5.3/rnn/mnist/h16/m1/relu  {'zs_better': 0, 'both_fail': 0, 'pq_all_pass': 50}  (40.6s)
+[2026-06-18 11:51:26] [6/80] 5.3/rnn/mnist/h16/m1/tanh
+[2026-06-18 11:51:26] TRAIN 5.3/rnn/mnist/h16/m1/tanh
+[2026-06-18 11:52:04] VERIFY 5.3/rnn/mnist/h16/m1/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 11:52:07] DONE 5.3/rnn/mnist/h16/m1/tanh  {'zs_better': 1, 'both_fail': 0, 'pq_all_pass': 49}  (41.0s)
+[2026-06-18 11:52:07] [7/80] 5.3/rnn/mnist/h32/m1/relu
+[2026-06-18 11:52:07] TRAIN 5.3/rnn/mnist/h32/m1/relu
+[2026-06-18 11:52:46] VERIFY 5.3/rnn/mnist/h32/m1/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 11:52:49] DONE 5.3/rnn/mnist/h32/m1/relu  {'zs_better': 0, 'both_fail': 0, 'pq_all_pass': 50}  (41.6s)
+[2026-06-18 11:52:49] [8/80] 5.3/rnn/mnist/h32/m1/tanh
+[2026-06-18 11:52:49] TRAIN 5.3/rnn/mnist/h32/m1/tanh
+[2026-06-18 11:53:28] VERIFY 5.3/rnn/mnist/h32/m1/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 11:53:32] DONE 5.3/rnn/mnist/h32/m1/tanh  {'zs_better': 2, 'both_fail': 1, 'pq_all_pass': 47}  (43.2s)
+[2026-06-18 11:53:32] [9/80] 5.3/rnn/mnist/h4/m2/relu
+[2026-06-18 11:53:32] TRAIN 5.3/rnn/mnist/h4/m2/relu
+[2026-06-18 11:54:11] VERIFY 5.3/rnn/mnist/h4/m2/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 11:54:20] DONE 5.3/rnn/mnist/h4/m2/relu  {'zs_better': 1, 'both_fail': 15, 'pq_all_pass': 34}  (48.3s)
+[2026-06-18 11:54:20] [10/80] 5.3/rnn/mnist/h4/m2/tanh
+[2026-06-18 11:54:20] TRAIN 5.3/rnn/mnist/h4/m2/tanh
+[2026-06-18 11:54:59] VERIFY 5.3/rnn/mnist/h4/m2/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 11:55:14] DONE 5.3/rnn/mnist/h4/m2/tanh  {'zs_better': 10, 'both_fail': 18, 'pq_all_pass': 22}  (53.4s)
+[2026-06-18 11:55:14] [11/80] 5.3/rnn/mnist/h8/m2/relu
+[2026-06-18 11:55:14] TRAIN 5.3/rnn/mnist/h8/m2/relu
+[2026-06-18 11:55:53] VERIFY 5.3/rnn/mnist/h8/m2/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 11:56:02] DONE 5.3/rnn/mnist/h8/m2/relu  {'zs_better': 3, 'both_fail': 4, 'pq_all_pass': 43}  (48.8s)
+[2026-06-18 11:56:02] [12/80] 5.3/rnn/mnist/h8/m2/tanh
+[2026-06-18 11:56:02] TRAIN 5.3/rnn/mnist/h8/m2/tanh
+[2026-06-18 11:56:41] VERIFY 5.3/rnn/mnist/h8/m2/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 11:57:11] DONE 5.3/rnn/mnist/h8/m2/tanh  {'zs_better': 6, 'both_fail': 11, 'pq_all_pass': 33}  (68.5s)
+[2026-06-18 11:57:11] [13/80] 5.3/rnn/mnist/h16/m2/relu
+[2026-06-18 11:57:11] TRAIN 5.3/rnn/mnist/h16/m2/relu
+[2026-06-18 11:57:50] VERIFY 5.3/rnn/mnist/h16/m2/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 11:57:59] DONE 5.3/rnn/mnist/h16/m2/relu  {'zs_better': 2, 'both_fail': 2, 'pq_all_pass': 46}  (48.2s)
+[2026-06-18 11:57:59] [14/80] 5.3/rnn/mnist/h16/m2/tanh
+[2026-06-18 11:57:59] TRAIN 5.3/rnn/mnist/h16/m2/tanh
+[2026-06-18 11:58:38] VERIFY 5.3/rnn/mnist/h16/m2/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 11:58:43] DONE 5.3/rnn/mnist/h16/m2/tanh  {'zs_better': 6, 'both_fail': 0, 'pq_all_pass': 44}  (43.7s)
+[2026-06-18 11:58:43] [15/80] 5.3/rnn/mnist/h32/m2/relu
+[2026-06-18 11:58:43] TRAIN 5.3/rnn/mnist/h32/m2/relu
+[2026-06-18 11:59:23] VERIFY 5.3/rnn/mnist/h32/m2/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 11:59:32] DONE 5.3/rnn/mnist/h32/m2/relu  {'zs_better': 2, 'both_fail': 6, 'pq_all_pass': 42}  (49.5s)
+[2026-06-18 11:59:32] [16/80] 5.3/rnn/mnist/h32/m2/tanh
+[2026-06-18 11:59:32] TRAIN 5.3/rnn/mnist/h32/m2/tanh
+[2026-06-18 12:00:13] VERIFY 5.3/rnn/mnist/h32/m2/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 12:00:17] DONE 5.3/rnn/mnist/h32/m2/tanh  {'zs_better': 5, 'both_fail': 0, 'pq_all_pass': 45}  (45.0s)
+[2026-06-18 12:00:17] [17/80] 5.3/rnn/mnist/h4/m4/relu
+[2026-06-18 12:00:17] TRAIN 5.3/rnn/mnist/h4/m4/relu
+[2026-06-18 12:00:57] VERIFY 5.3/rnn/mnist/h4/m4/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 12:01:17] DONE 5.3/rnn/mnist/h4/m4/relu  {'zs_better': 8, 'both_fail': 23, 'pq_all_pass': 19}  (59.1s)
+[2026-06-18 12:01:17] [18/80] 5.3/rnn/mnist/h4/m4/tanh
+[2026-06-18 12:01:17] TRAIN 5.3/rnn/mnist/h4/m4/tanh
+[2026-06-18 12:01:56] VERIFY 5.3/rnn/mnist/h4/m4/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 12:02:32] DONE 5.3/rnn/mnist/h4/m4/tanh  {'zs_better': 11, 'both_fail': 17, 'pq_all_pass': 22}  (75.2s)
+[2026-06-18 12:02:32] [19/80] 5.3/rnn/mnist/h8/m4/relu
+[2026-06-18 12:02:32] TRAIN 5.3/rnn/mnist/h8/m4/relu
+[2026-06-18 12:03:12] VERIFY 5.3/rnn/mnist/h8/m4/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 12:03:29] DONE 5.3/rnn/mnist/h8/m4/relu  {'zs_better': 4, 'both_fail': 8, 'pq_all_pass': 38}  (56.9s)
+[2026-06-18 12:03:29] [20/80] 5.3/rnn/mnist/h8/m4/tanh
+[2026-06-18 12:03:29] TRAIN 5.3/rnn/mnist/h8/m4/tanh
+[2026-06-18 12:04:09] VERIFY 5.3/rnn/mnist/h8/m4/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 12:05:01] DONE 5.3/rnn/mnist/h8/m4/tanh  {'zs_better': 21, 'both_fail': 6, 'pq_all_pass': 23}  (92.6s)
+[2026-06-18 12:05:01] [21/80] 5.3/rnn/mnist/h16/m4/relu
+[2026-06-18 12:05:01] TRAIN 5.3/rnn/mnist/h16/m4/relu
+[2026-06-18 12:05:41] VERIFY 5.3/rnn/mnist/h16/m4/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 12:05:58] DONE 5.3/rnn/mnist/h16/m4/relu  {'zs_better': 3, 'both_fail': 2, 'pq_all_pass': 45}  (57.1s)
+[2026-06-18 12:05:58] [22/80] 5.3/rnn/mnist/h16/m4/tanh
+[2026-06-18 12:05:58] TRAIN 5.3/rnn/mnist/h16/m4/tanh
+[2026-06-18 12:06:39] VERIFY 5.3/rnn/mnist/h16/m4/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 12:06:50] DONE 5.3/rnn/mnist/h16/m4/tanh  {'zs_better': 18, 'both_fail': 0, 'pq_all_pass': 32}  (51.4s)
+[2026-06-18 12:06:50] [23/80] 5.3/rnn/mnist/h32/m4/relu
+[2026-06-18 12:06:50] TRAIN 5.3/rnn/mnist/h32/m4/relu
+[2026-06-18 12:07:31] VERIFY 5.3/rnn/mnist/h32/m4/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 12:07:46] DONE 5.3/rnn/mnist/h32/m4/relu  {'zs_better': 2, 'both_fail': 2, 'pq_all_pass': 46}  (55.9s)
+[2026-06-18 12:07:46] [24/80] 5.3/rnn/mnist/h32/m4/tanh
+[2026-06-18 12:07:46] TRAIN 5.3/rnn/mnist/h32/m4/tanh
+[2026-06-18 12:08:27] VERIFY 5.3/rnn/mnist/h32/m4/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 12:08:38] DONE 5.3/rnn/mnist/h32/m4/tanh  {'zs_better': 9, 'both_fail': 0, 'pq_all_pass': 41}  (52.1s)
+[2026-06-18 12:08:38] [25/80] 5.3/rnn/mnist/h4/m7/relu
+[2026-06-18 12:08:38] TRAIN 5.3/rnn/mnist/h4/m7/relu
+[2026-06-18 12:09:19] VERIFY 5.3/rnn/mnist/h4/m7/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 12:10:22] DONE 5.3/rnn/mnist/h4/m7/relu  {'zs_better': 7, 'both_fail': 38, 'pq_all_pass': 5}  (103.9s)
+[2026-06-18 12:10:22] [26/80] 5.3/rnn/mnist/h4/m7/tanh
+[2026-06-18 12:10:22] TRAIN 5.3/rnn/mnist/h4/m7/tanh
+[2026-06-18 12:11:02] VERIFY 5.3/rnn/mnist/h4/m7/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 12:13:30] DONE 5.3/rnn/mnist/h4/m7/tanh  {'zs_better': 21, 'both_fail': 26, 'pq_all_pass': 3}  (188.1s)
+[2026-06-18 12:13:30] [27/80] 5.3/rnn/mnist/h8/m7/relu
+[2026-06-18 12:13:30] TRAIN 5.3/rnn/mnist/h8/m7/relu
+[2026-06-18 12:14:10] VERIFY 5.3/rnn/mnist/h8/m7/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 12:14:42] DONE 5.3/rnn/mnist/h8/m7/relu  {'zs_better': 9, 'both_fail': 15, 'pq_all_pass': 26}  (72.2s)
+[2026-06-18 12:14:42] [28/80] 5.3/rnn/mnist/h8/m7/tanh
+[2026-06-18 12:14:42] TRAIN 5.3/rnn/mnist/h8/m7/tanh
+[2026-06-18 12:15:23] VERIFY 5.3/rnn/mnist/h8/m7/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 12:17:11] DONE 5.3/rnn/mnist/h8/m7/tanh  {'zs_better': 28, 'both_fail': 8, 'pq_all_pass': 14}  (149.1s)
+[2026-06-18 12:17:11] [29/80] 5.3/rnn/mnist/h16/m7/relu
+[2026-06-18 12:17:11] TRAIN 5.3/rnn/mnist/h16/m7/relu
+[2026-06-18 12:17:52] VERIFY 5.3/rnn/mnist/h16/m7/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 12:18:21] DONE 5.3/rnn/mnist/h16/m7/relu  {'zs_better': 8, 'both_fail': 6, 'pq_all_pass': 36}  (70.2s)
+[2026-06-18 12:18:21] [30/80] 5.3/rnn/mnist/h16/m7/tanh
+[2026-06-18 12:18:21] TRAIN 5.3/rnn/mnist/h16/m7/tanh
+[2026-06-18 12:19:03] VERIFY 5.3/rnn/mnist/h16/m7/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 12:20:42] DONE 5.3/rnn/mnist/h16/m7/tanh  {'zs_better': 26, 'both_fail': 4, 'pq_all_pass': 20}  (140.7s)
+[2026-06-18 12:20:42] [31/80] 5.3/rnn/mnist/h32/m7/relu
+[2026-06-18 12:20:42] TRAIN 5.3/rnn/mnist/h32/m7/relu
+[2026-06-18 12:21:24] VERIFY 5.3/rnn/mnist/h32/m7/relu  (n-workers=30, timeout=1800s)
+[2026-06-18 12:21:56] DONE 5.3/rnn/mnist/h32/m7/relu  {'zs_better': 3, 'both_fail': 3, 'pq_all_pass': 44}  (73.6s)
+[2026-06-18 12:21:56] [32/80] 5.3/rnn/mnist/h32/m7/tanh
+[2026-06-18 12:21:56] TRAIN 5.3/rnn/mnist/h32/m7/tanh
+[2026-06-18 12:22:38] VERIFY 5.3/rnn/mnist/h32/m7/tanh  (n-workers=30, timeout=1800s)
+[2026-06-18 12:23:04] DONE 5.3/rnn/mnist/h32/m7/tanh  {'zs_better': 41, 'both_fail': 0, 'pq_all_pass': 9}  (69.0s)
+[2026-06-18 12:23:05] [33/80] 5.4/lstm/mnist/h4/m1/sigtanh
+[2026-06-18 12:23:05] VERIFY 5.4/lstm/mnist/h4/m1/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-18 12:51:28] DONE 5.4/lstm/mnist/h4/m1/sigtanh  {'zs_better': 5, 'both_fail': 15, 'pq_all_pass': 30}  (1703.1s)
+[2026-06-18 12:51:28] [34/80] 5.4/lstm/mnist/h4/m2/sigtanh
+[2026-06-18 12:51:28] TRAIN 5.4/lstm/mnist/h4/m2/sigtanh
+[2026-06-18 12:53:04] VERIFY 5.4/lstm/mnist/h4/m2/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-18 13:51:23] DONE 5.4/lstm/mnist/h4/m2/sigtanh  {'zs_better': 5, 'both_fail': 12, 'pq_all_pass': 33}  (3594.7s)
+[2026-06-18 13:51:23] [35/80] 5.1/rnn/cifar10/h16/m8/relu
+[2026-06-18 13:51:23] TRAIN 5.1/rnn/cifar10/h16/m8/relu
+[2026-06-18 13:52:34] VERIFY 5.1/rnn/cifar10/h16/m8/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 13:53:14] DONE 5.1/rnn/cifar10/h16/m8/relu  {'zs_better': 26, 'both_fail': 18, 'pq_all_pass': 6}  (111.0s)
+[2026-06-18 13:53:14] [36/80] 5.1/rnn/cifar10/h16/m8/tanh
+[2026-06-18 13:53:14] TRAIN 5.1/rnn/cifar10/h16/m8/tanh
+[2026-06-18 13:54:25] VERIFY 5.1/rnn/cifar10/h16/m8/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 13:57:25] DONE 5.1/rnn/cifar10/h16/m8/tanh  {'zs_better': 36, 'both_fail': 14, 'pq_all_pass': 0}  (251.7s)
+[2026-06-18 13:57:25] [37/80] 5.1/rnn/cifar10/h16/m12/relu
+[2026-06-18 13:57:25] TRAIN 5.1/rnn/cifar10/h16/m12/relu
+[2026-06-18 13:58:38] VERIFY 5.1/rnn/cifar10/h16/m12/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 14:00:39] DONE 5.1/rnn/cifar10/h16/m12/relu  {'zs_better': 15, 'both_fail': 32, 'pq_all_pass': 3}  (193.5s)
+[2026-06-18 14:00:39] [38/80] 5.1/rnn/cifar10/h16/m12/tanh
+[2026-06-18 14:00:39] TRAIN 5.1/rnn/cifar10/h16/m12/tanh
+[2026-06-18 14:01:52] VERIFY 5.1/rnn/cifar10/h16/m12/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 14:06:07] DONE 5.1/rnn/cifar10/h16/m12/tanh  {'zs_better': 35, 'both_fail': 15, 'pq_all_pass': 0}  (327.8s)
+[2026-06-18 14:06:07] [39/80] 5.1/rnn/cifar10/h16/m24/relu
+[2026-06-18 14:06:07] TRAIN 5.1/rnn/cifar10/h16/m24/relu
+[2026-06-18 14:07:23] VERIFY 5.1/rnn/cifar10/h16/m24/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 14:10:51] DONE 5.1/rnn/cifar10/h16/m24/relu  {'zs_better': 22, 'both_fail': 28, 'pq_all_pass': 0}  (283.9s)
+[2026-06-18 14:10:51] [40/80] 5.1/rnn/cifar10/h16/m24/tanh
+[2026-06-18 14:10:51] TRAIN 5.1/rnn/cifar10/h16/m24/tanh
+[2026-06-18 14:12:09] VERIFY 5.1/rnn/cifar10/h16/m24/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 14:25:20] DONE 5.1/rnn/cifar10/h16/m24/tanh  {'zs_better': 22, 'both_fail': 28, 'pq_all_pass': 0}  (869.3s)
+[2026-06-18 14:25:20] [41/80] 5.1/rnn/cifar10/h16/m32/relu
+[2026-06-18 14:25:20] TRAIN 5.1/rnn/cifar10/h16/m32/relu
+[2026-06-18 14:26:40] VERIFY 5.1/rnn/cifar10/h16/m32/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 14:31:35] DONE 5.1/rnn/cifar10/h16/m32/relu  {'zs_better': 24, 'both_fail': 26, 'pq_all_pass': 0}  (374.9s)
+[2026-06-18 14:31:35] [42/80] 5.1/rnn/cifar10/h16/m32/tanh
+[2026-06-18 14:31:35] TRAIN 5.1/rnn/cifar10/h16/m32/tanh
+[2026-06-18 14:32:57] VERIFY 5.1/rnn/cifar10/h16/m32/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 15:00:36] DONE 5.1/rnn/cifar10/h16/m32/tanh  {'zs_better': 16, 'both_fail': 34, 'pq_all_pass': 0}  (1741.2s)
+[2026-06-18 15:00:36] [43/80] 5.1/rnn/cifar10/h32/m8/relu
+[2026-06-18 15:00:36] TRAIN 5.1/rnn/cifar10/h32/m8/relu
+[2026-06-18 15:01:49] VERIFY 5.1/rnn/cifar10/h32/m8/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 15:02:39] DONE 5.1/rnn/cifar10/h32/m8/relu  {'zs_better': 28, 'both_fail': 19, 'pq_all_pass': 3}  (122.5s)
+[2026-06-18 15:02:39] [44/80] 5.1/rnn/cifar10/h32/m8/tanh
+[2026-06-18 15:02:39] TRAIN 5.1/rnn/cifar10/h32/m8/tanh
+[2026-06-18 15:03:53] VERIFY 5.1/rnn/cifar10/h32/m8/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 15:07:51] DONE 5.1/rnn/cifar10/h32/m8/tanh  {'zs_better': 30, 'both_fail': 20, 'pq_all_pass': 0}  (312.7s)
+[2026-06-18 15:07:51] [45/80] 5.1/rnn/cifar10/h32/m12/relu
+[2026-06-18 15:07:51] TRAIN 5.1/rnn/cifar10/h32/m12/relu
+[2026-06-18 15:09:06] VERIFY 5.1/rnn/cifar10/h32/m12/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 15:10:31] DONE 5.1/rnn/cifar10/h32/m12/relu  {'zs_better': 27, 'both_fail': 23, 'pq_all_pass': 0}  (160.3s)
+[2026-06-18 15:10:31] [46/80] 5.1/rnn/cifar10/h32/m12/tanh
+[2026-06-18 15:10:31] TRAIN 5.1/rnn/cifar10/h32/m12/tanh
+[2026-06-18 15:11:48] VERIFY 5.1/rnn/cifar10/h32/m12/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 15:18:02] DONE 5.1/rnn/cifar10/h32/m12/tanh  {'zs_better': 28, 'both_fail': 22, 'pq_all_pass': 0}  (450.9s)
+[2026-06-18 15:18:02] [47/80] 5.1/rnn/cifar10/h32/m24/relu
+[2026-06-18 15:18:02] TRAIN 5.1/rnn/cifar10/h32/m24/relu
+[2026-06-18 15:19:24] VERIFY 5.1/rnn/cifar10/h32/m24/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 15:22:41] DONE 5.1/rnn/cifar10/h32/m24/relu  {'zs_better': 27, 'both_fail': 23, 'pq_all_pass': 0}  (278.6s)
+[2026-06-18 15:22:41] [48/80] 5.1/rnn/cifar10/h32/m24/tanh
+[2026-06-18 15:22:41] TRAIN 5.1/rnn/cifar10/h32/m24/tanh
+[2026-06-18 15:24:04] VERIFY 5.1/rnn/cifar10/h32/m24/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 15:43:48] DONE 5.1/rnn/cifar10/h32/m24/tanh  {'zs_better': 15, 'both_fail': 35, 'pq_all_pass': 0}  (1267.2s)
+[2026-06-18 15:43:48] [49/80] 5.1/rnn/cifar10/h32/m32/relu
+[2026-06-18 15:43:48] TRAIN 5.1/rnn/cifar10/h32/m32/relu
+[2026-06-18 15:45:12] VERIFY 5.1/rnn/cifar10/h32/m32/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 15:50:14] DONE 5.1/rnn/cifar10/h32/m32/relu  {'zs_better': 24, 'both_fail': 26, 'pq_all_pass': 0}  (386.0s)
+[2026-06-18 15:50:14] [50/80] 5.1/rnn/cifar10/h32/m32/tanh
+[2026-06-18 15:50:14] TRAIN 5.1/rnn/cifar10/h32/m32/tanh
+[2026-06-18 15:51:41] VERIFY 5.1/rnn/cifar10/h32/m32/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 16:23:27] DONE 5.1/rnn/cifar10/h32/m32/tanh  {'zs_better': 10, 'both_fail': 40, 'pq_all_pass': 0}  (1993.0s)
+[2026-06-18 16:23:27] [51/80] 5.1/rnn/cifar10/h64/m8/relu
+[2026-06-18 16:23:27] TRAIN 5.1/rnn/cifar10/h64/m8/relu
+[2026-06-18 16:24:47] VERIFY 5.1/rnn/cifar10/h64/m8/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 16:25:30] DONE 5.1/rnn/cifar10/h64/m8/relu  {'zs_better': 36, 'both_fail': 14, 'pq_all_pass': 0}  (122.9s)
+[2026-06-18 16:25:30] [52/80] 5.1/rnn/cifar10/h64/m8/tanh
+[2026-06-18 16:25:30] TRAIN 5.1/rnn/cifar10/h64/m8/tanh
+[2026-06-18 16:26:52] VERIFY 5.1/rnn/cifar10/h64/m8/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 16:31:58] DONE 5.1/rnn/cifar10/h64/m8/tanh  {'zs_better': 28, 'both_fail': 22, 'pq_all_pass': 0}  (388.0s)
+[2026-06-18 16:31:58] [53/80] 5.1/rnn/cifar10/h64/m12/relu
+[2026-06-18 16:31:58] TRAIN 5.1/rnn/cifar10/h64/m12/relu
+[2026-06-18 16:33:20] VERIFY 5.1/rnn/cifar10/h64/m12/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 16:34:54] DONE 5.1/rnn/cifar10/h64/m12/relu  {'zs_better': 26, 'both_fail': 24, 'pq_all_pass': 0}  (175.9s)
+[2026-06-18 16:34:54] [54/80] 5.1/rnn/cifar10/h64/m12/tanh
+[2026-06-18 16:34:54] TRAIN 5.1/rnn/cifar10/h64/m12/tanh
+[2026-06-18 16:36:19] VERIFY 5.1/rnn/cifar10/h64/m12/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 16:48:09] DONE 5.1/rnn/cifar10/h64/m12/tanh  {'zs_better': 15, 'both_fail': 35, 'pq_all_pass': 0}  (795.4s)
+[2026-06-18 16:48:09] [55/80] 5.1/rnn/cifar10/h64/m24/relu
+[2026-06-18 16:48:09] TRAIN 5.1/rnn/cifar10/h64/m24/relu
+[2026-06-18 16:49:40] VERIFY 5.1/rnn/cifar10/h64/m24/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 16:55:08] DONE 5.1/rnn/cifar10/h64/m24/relu  {'zs_better': 16, 'both_fail': 34, 'pq_all_pass': 0}  (418.7s)
+[2026-06-18 16:55:08] [56/80] 5.1/rnn/cifar10/h64/m24/tanh
+[2026-06-18 16:55:08] TRAIN 5.1/rnn/cifar10/h64/m24/tanh
+[2026-06-18 16:56:43] VERIFY 5.1/rnn/cifar10/h64/m24/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 17:20:59] DONE 5.1/rnn/cifar10/h64/m24/tanh  {'zs_better': 10, 'both_fail': 40, 'pq_all_pass': 0}  (1551.0s)
+[2026-06-18 17:20:59] [57/80] 5.1/rnn/cifar10/h64/m32/relu
+[2026-06-18 17:20:59] TRAIN 5.1/rnn/cifar10/h64/m32/relu
+[2026-06-18 17:22:35] VERIFY 5.1/rnn/cifar10/h64/m32/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 17:31:45] DONE 5.1/rnn/cifar10/h64/m32/relu  {'zs_better': 12, 'both_fail': 38, 'pq_all_pass': 0}  (645.6s)
+[2026-06-18 17:31:45] [58/80] 5.1/rnn/cifar10/h64/m32/tanh
+[2026-06-18 17:31:45] TRAIN 5.1/rnn/cifar10/h64/m32/tanh
+[2026-06-18 17:33:27] VERIFY 5.1/rnn/cifar10/h64/m32/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 18:07:44] DONE 5.1/rnn/cifar10/h64/m32/tanh  {'zs_better': 9, 'both_fail': 41, 'pq_all_pass': 0}  (2158.9s)
+[2026-06-18 18:07:44] [59/80] 5.1/rnn/cifar10/h128/m8/relu
+[2026-06-18 18:07:44] TRAIN 5.1/rnn/cifar10/h128/m8/relu
+[2026-06-18 18:09:20] VERIFY 5.1/rnn/cifar10/h128/m8/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 18:10:21] DONE 5.1/rnn/cifar10/h128/m8/relu  {'zs_better': 28, 'both_fail': 20, 'pq_all_pass': 2}  (157.5s)
+[2026-06-18 18:10:21] [60/80] 5.1/rnn/cifar10/h128/m8/tanh
+[2026-06-18 18:10:21] TRAIN 5.1/rnn/cifar10/h128/m8/tanh
+[2026-06-18 18:12:00] VERIFY 5.1/rnn/cifar10/h128/m8/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 18:17:51] DONE 5.1/rnn/cifar10/h128/m8/tanh  {'zs_better': 23, 'both_fail': 27, 'pq_all_pass': 0}  (450.1s)
+[2026-06-18 18:17:51] [61/80] 5.1/rnn/cifar10/h128/m12/relu
+[2026-06-18 18:17:51] TRAIN 5.1/rnn/cifar10/h128/m12/relu
+[2026-06-18 18:19:34] VERIFY 5.1/rnn/cifar10/h128/m12/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 18:21:33] DONE 5.1/rnn/cifar10/h128/m12/relu  {'zs_better': 20, 'both_fail': 30, 'pq_all_pass': 0}  (221.5s)
+[2026-06-18 18:21:33] [62/80] 5.1/rnn/cifar10/h128/m12/tanh
+[2026-06-18 18:21:33] TRAIN 5.1/rnn/cifar10/h128/m12/tanh
+[2026-06-18 18:23:20] VERIFY 5.1/rnn/cifar10/h128/m12/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 18:35:58] DONE 5.1/rnn/cifar10/h128/m12/tanh  {'zs_better': 14, 'both_fail': 36, 'pq_all_pass': 0}  (864.9s)
+[2026-06-18 18:35:58] [63/80] 5.1/rnn/cifar10/h128/m24/relu
+[2026-06-18 18:35:58] TRAIN 5.1/rnn/cifar10/h128/m24/relu
+[2026-06-18 18:38:03] VERIFY 5.1/rnn/cifar10/h128/m24/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 18:46:15] DONE 5.1/rnn/cifar10/h128/m24/relu  {'zs_better': 6, 'both_fail': 44, 'pq_all_pass': 0}  (617.7s)
+[2026-06-18 18:46:15] [64/80] 5.1/rnn/cifar10/h128/m24/tanh
+[2026-06-18 18:46:15] TRAIN 5.1/rnn/cifar10/h128/m24/tanh
+[2026-06-18 18:48:26] VERIFY 5.1/rnn/cifar10/h128/m24/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 19:21:59] DONE 5.1/rnn/cifar10/h128/m24/tanh  {'zs_better': 0, 'both_fail': 50, 'pq_all_pass': 0}  (2143.6s)
+[2026-06-18 19:21:59] [65/80] 5.1/rnn/cifar10/h128/m32/relu
+[2026-06-18 19:21:59] TRAIN 5.1/rnn/cifar10/h128/m32/relu
+[2026-06-18 19:24:14] VERIFY 5.1/rnn/cifar10/h128/m32/relu  (n-workers=30, timeout=10800s)
+[2026-06-18 19:37:49] DONE 5.1/rnn/cifar10/h128/m32/relu  {'zs_better': 3, 'both_fail': 47, 'pq_all_pass': 0}  (950.5s)
+[2026-06-18 19:37:49] [66/80] 5.1/rnn/cifar10/h128/m32/tanh
+[2026-06-18 19:37:49] TRAIN 5.1/rnn/cifar10/h128/m32/tanh
+[2026-06-18 19:40:19] VERIFY 5.1/rnn/cifar10/h128/m32/tanh  (n-workers=30, timeout=10800s)
+[2026-06-18 20:20:29] DONE 5.1/rnn/cifar10/h128/m32/tanh  {'zs_better': 2, 'both_fail': 48, 'pq_all_pass': 0}  (2560.0s)
+[2026-06-18 20:20:29] [67/80] 5.4/lstm/mnist/h4/m4/sigtanh
+[2026-06-18 20:20:29] TRAIN 5.4/lstm/mnist/h4/m4/sigtanh
+[2026-06-18 20:22:05] VERIFY 5.4/lstm/mnist/h4/m4/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-18 22:23:02] DONE 5.4/lstm/mnist/h4/m4/sigtanh  {'zs_better': 11, 'both_fail': 17, 'pq_all_pass': 22}  (7352.7s)
+[2026-06-18 22:23:02] [68/80] 5.4/lstm/mnist/h4/m7/sigtanh
+[2026-06-18 22:23:02] TRAIN 5.4/lstm/mnist/h4/m7/sigtanh
+[2026-06-18 22:24:40] VERIFY 5.4/lstm/mnist/h4/m7/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-19 03:49:43] DONE 5.4/lstm/mnist/h4/m7/sigtanh  {'zs_better': 5, 'both_fail': 43, 'pq_all_pass': 2}  (19600.9s)
+[2026-06-19 03:49:43] [69/80] 5.4/lstm/mnist/h8/m1/sigtanh
+[2026-06-19 03:49:43] TRAIN 5.4/lstm/mnist/h8/m1/sigtanh
+[2026-06-19 03:51:20] VERIFY 5.4/lstm/mnist/h8/m1/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-19 04:13:47] DONE 5.4/lstm/mnist/h8/m1/sigtanh  {'zs_better': 5, 'both_fail': 1, 'pq_all_pass': 44}  (1443.5s)
+[2026-06-19 04:13:47] [70/80] 5.4/lstm/mnist/h8/m2/sigtanh
+[2026-06-19 04:13:47] TRAIN 5.4/lstm/mnist/h8/m2/sigtanh
+[2026-06-19 04:15:24] VERIFY 5.4/lstm/mnist/h8/m2/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-19 05:33:24] DONE 5.4/lstm/mnist/h8/m2/sigtanh  {'zs_better': 4, 'both_fail': 7, 'pq_all_pass': 39}  (4777.5s)
+[2026-06-19 05:33:24] [71/80] 5.4/lstm/mnist/h8/m4/sigtanh
+[2026-06-19 05:33:24] TRAIN 5.4/lstm/mnist/h8/m4/sigtanh
+[2026-06-19 05:35:02] VERIFY 5.4/lstm/mnist/h8/m4/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-19 08:33:45] DONE 5.4/lstm/mnist/h8/m4/sigtanh  {'zs_better': 9, 'both_fail': 16, 'pq_all_pass': 25}  (10821.0s)
+[2026-06-19 08:33:45] [72/80] 5.4/lstm/mnist/h8/m7/sigtanh
+[2026-06-19 08:33:45] TRAIN 5.4/lstm/mnist/h8/m7/sigtanh
+[2026-06-19 08:35:23] VERIFY 5.4/lstm/mnist/h8/m7/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-19 15:09:50] DONE 5.4/lstm/mnist/h8/m7/sigtanh  {'zs_better': 17, 'both_fail': 28, 'pq_all_pass': 5}  (23765.4s)
+[2026-06-19 15:09:50] [73/80] 5.4/lstm/mnist/h16/m1/sigtanh
+[2026-06-19 15:09:50] TRAIN 5.4/lstm/mnist/h16/m1/sigtanh
+[2026-06-19 15:11:30] VERIFY 5.4/lstm/mnist/h16/m1/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-19 15:32:22] DONE 5.4/lstm/mnist/h16/m1/sigtanh  {'zs_better': 0, 'both_fail': 1, 'pq_all_pass': 49}  (1352.0s)
+[2026-06-19 15:32:22] [74/80] 5.4/lstm/mnist/h16/m2/sigtanh
+[2026-06-19 15:32:22] TRAIN 5.4/lstm/mnist/h16/m2/sigtanh
+[2026-06-19 15:34:03] VERIFY 5.4/lstm/mnist/h16/m2/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-19 16:33:51] DONE 5.4/lstm/mnist/h16/m2/sigtanh  {'zs_better': 0, 'both_fail': 1, 'pq_all_pass': 49}  (3688.2s)
+[2026-06-19 16:33:51] [75/80] 5.4/lstm/mnist/h16/m4/sigtanh
+[2026-06-19 16:33:51] TRAIN 5.4/lstm/mnist/h16/m4/sigtanh
+[2026-06-19 16:35:30] VERIFY 5.4/lstm/mnist/h16/m4/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-19 20:11:17] DONE 5.4/lstm/mnist/h16/m4/sigtanh  {'zs_better': 4, 'both_fail': 11, 'pq_all_pass': 35}  (13046.7s)
+[2026-06-19 20:11:17] [76/80] 5.4/lstm/mnist/h16/m7/sigtanh
+[2026-06-19 20:11:17] TRAIN 5.4/lstm/mnist/h16/m7/sigtanh
+[2026-06-19 20:13:00] VERIFY 5.4/lstm/mnist/h16/m7/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-20 05:39:18] DONE 5.4/lstm/mnist/h16/m7/sigtanh  {'zs_better': 7, 'both_fail': 37, 'pq_all_pass': 6}  (34080.7s)
+[2026-06-20 05:39:18] [77/80] 5.4/lstm/mnist/h32/m1/sigtanh
+[2026-06-20 05:39:18] TRAIN 5.4/lstm/mnist/h32/m1/sigtanh
+[2026-06-20 05:41:03] VERIFY 5.4/lstm/mnist/h32/m1/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-20 06:06:59] DONE 5.4/lstm/mnist/h32/m1/sigtanh  {'zs_better': 0, 'both_fail': 0, 'pq_all_pass': 50}  (1660.9s)
+[2026-06-20 06:06:59] [78/80] 5.4/lstm/mnist/h32/m2/sigtanh
+[2026-06-20 06:06:59] TRAIN 5.4/lstm/mnist/h32/m2/sigtanh
+[2026-06-20 06:08:43] VERIFY 5.4/lstm/mnist/h32/m2/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-20 08:06:13] DONE 5.4/lstm/mnist/h32/m2/sigtanh  {'zs_better': 0, 'both_fail': 2, 'pq_all_pass': 48}  (7153.8s)
+[2026-06-20 08:06:13] [79/80] 5.4/lstm/mnist/h32/m4/sigtanh
+[2026-06-20 08:06:13] TRAIN 5.4/lstm/mnist/h32/m4/sigtanh
+[2026-06-20 08:07:57] VERIFY 5.4/lstm/mnist/h32/m4/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-20 12:42:22] DONE 5.4/lstm/mnist/h32/m4/sigtanh  {'zs_better': 2, 'both_fail': 7, 'pq_all_pass': 41}  (16569.6s)
+[2026-06-20 12:42:22] [80/80] 5.4/lstm/mnist/h32/m7/sigtanh
+[2026-06-20 12:42:22] TRAIN 5.4/lstm/mnist/h32/m7/sigtanh
+[2026-06-20 12:44:10] VERIFY 5.4/lstm/mnist/h32/m7/sigtanh  (n-workers=30, timeout=604800s)
+[2026-06-20 21:53:19] DONE 5.4/lstm/mnist/h32/m7/sigtanh  {'zs_better': 11, 'both_fail': 32, 'pq_all_pass': 7}  (33056.1s)
+[2026-06-20 21:53:19] === run_all 全部配置處理完畢 ===
