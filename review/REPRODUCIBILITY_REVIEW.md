@@ -12,7 +12,7 @@
 
 | 項目 | 結論 |
 |---|---|
-| **程式能否重現論文趨勢** | **RNN 能、LSTM 部分**。自建環境 + 自行重訓 + 自寫外部 driver 下：**Table 5.3/5.1（RNN）逐格貼合**（平均 |Δ%| 5–11pp、|Δ×| ≤2.4）；**Table 5.4（LSTM）逐格數值不可靠**（|Δ×|=24.2，D5 放大），但定性結論成立。Figs 5.1–5.4 趨勢全部重現。 |
+| **程式能否重現論文趨勢** | **RNN 能、LSTM 部分**。自建環境 + 自行重訓 + 自寫外部 driver 下：**Table 5.3/5.1（RNN）逐格貼合**（平均 |Δ%| 5–11pp、|Δ×| ≤2.4）；**Table 5.4（LSTM）逐格數值不可靠**（|Δ×|=24.2，D5 放大），但定性結論成立。**Figs 5.1–5.4（runtime）多數不可忠實重現**（需 Stroke/GenBaB 資料 + 未量 no-refine 時間，見 §4.5）。 |
 | **能否 exact 重現數字** | **不能**（結構性障礙，非程式錯）。論文**未報訓練 seed/超參數/環境/clean accuracy**（D5/D6），權重不可重建 → 數值必帶誤差。重現等級＝**趨勢重現**。 |
 | **照文件直接跑能否成功** | **不能**：(a) auto_test 預設 grid≠論文(D3)；(b) `conda torch-env` 不存在、無 requirements 鎖版(環境)；(c) **多進程預設會 deadlock(D8)**。皆需審查者繞過。 |
 | **整體可再現性評級** | **中等偏上**：方法與核心 verifier 健全、CLI 完整參數化使「不改碼重現論文 grid」可行；但**環境/訓練/資料/文件**多處缺口需手動補齊。 |
@@ -87,17 +87,20 @@
 - **5.2**：需外部 stroke-sequence 資料集（Liwicki 2012），不自動下載 → **標記「需外部資料、暫緩」**。
 - **5.5**：GenBaB(α,β-CROWN) 為外部 repo、橋接腳本路徑寫死 `/home/sausage/...` → **只記錄、不實跑**。
 
-### 4.5 圖 Figs 5.1–5.4（runtime）— ✅ 已生成（`results/figures/fig5_{1..4}_repro.png`）
-由各 run 的 timing（`popqorn`=baseline、`zs_total`=refinement、`shap`）重畫。絕對秒數因論文未記載硬體不可比（D6），故**只主張趨勢**——四項趨勢**全部與論文一致**：
+### 4.5 圖 Figs 5.1–5.4（runtime）— ⚠️ **大部分不可忠實重現（需要我們未取得的資料）**
 
-| 圖 | 重現的趨勢 | vs 論文 |
-|---|---|---|
-| **5.1** | refinement 時間恆 > baseline、隨 m/h 上升、tanh ≫ relu | ✓ |
-| **5.2** | refine/baseline 時間比恆 > 1 | ✓ |
-| **5.3** | SHAP 時間隨 m 上升（且 SHAP 是 refinement 主成本，CIFAR 達 ~1.1s/呼叫）| ✓ |
-| **5.4** | LSTM 計算時間 ≫ vanilla RNN（log 軸，2–3 個數量級差）| ✓ |
+> ⚠️ **更正**：本節初版曾宣稱「四圖趨勢全部重現」，**該宣稱不成立、已撤回**。經核對論文實圖（p31–34），這些 runtime 圖**多數無法以本次的資料忠實重現**，原因如下：
 
-> 重畫腳本：`review_workspace/drivers/make_figures.py`（冪等、可重跑）。
+| 圖 | 論文結構 | 我們能否重現 | 缺口 |
+|---|---|---|---|
+| **5.1** | x=Timestep(m) **8→45**（**CIFAR+Stroke 合畫**）；每 h 有 ReLU/Tanh × **No-refine + Refine** 四線 | **僅 CIFAR 半段(m≤32)、且僅 Refine 線** | 缺 Stroke(m30–45，Table 5.2 暫緩)；**未單獨量 no-refine 時間** |
+| **5.2** | refine/**no-refine** 時間比 × m(8→45) | **不可** | 比值需 no-refine 時間（未量）＋ 缺 Stroke 半段 |
+| **5.3** | SHAP 時間 × m(8→45)，CIFAR+Stroke | **僅 CIFAR 半段** | 缺 Stroke；且我們 shap 套件慢 ~50×（成本剖面不同）|
+| **5.4** | 4 子圖 (a)ReLU (b)Tanh (c)LSTM **(d)GenBaB**；每 h 有 No-refine+Refine 兩線 | **(a)(b)(c) 僅 Refine 線** | 缺 GenBaB(d，略過)；**未量 no-refine** |
+
+**根因**：(1) 圖需要 **MNIST-Stroke**（5.1/5.2/5.3）與 **GenBaB**（5.4d），皆依範圍未納入；(2) 圖區分 **no-refinement vs refinement** 兩線，但我們只跑完整 EVR、**未單獨測 baseline-only 時間**；(3) 絕對秒數比論文高約 10×（CPU + shap 較慢，D6）。
+**（初版的 `fig5_*.py` 圖另有指標錯誤——把 30-worker 的 CPU 時間總和當 wall-time，量級膨脹 ~30×；已知悉。）**
+**可補救途徑**：以 `--max-splits 0` 重跑一輪量 no-refine 時間（→ 可補 5.4(a)(b)(c) 的兩線版）；Stroke/GenBaB 則需外部資料/外部 repo。詳見結尾「待決」。
 
 ---
 
@@ -135,7 +138,7 @@
 | 訓練/權重 | 🔴 **不可重現** | 無 seed、無超參數（D5） |
 | 照 README/auto_test 直接跑 | 🔴 **會失敗** | D3 grid 不符 + D8 死結 |
 | Table 5.2 / 5.5 | ⚪ **未納入** | 需外部資料/外部 repo |
-| Figs 5.1–5.4 | 🟢 **趨勢可重現** | 絕對值不可（D6）；四項趨勢已生成、全部一致 |
+| Figs 5.1–5.4 | 🔴 **多數不可忠實重現** | 需 Stroke(5.1/2/3)+GenBaB(5.4d)+no-refine 計時（皆未取得）；絕對值亦不可（D6）。詳 §4.5 |
 
 ---
 
