@@ -67,3 +67,224 @@
 [2026-06-29 12:51:55] DONE 5.3/rnn/mnist/h16/m4/tanh {'zs_better': 18, 'both_fail': 0, 'pq_all_pass': 32} (11.1s)
 [2026-06-29 12:51:55] [23/96] 5.3/rnn/mnist/h16/m7/relu
 [2026-06-29 12:51:55] VERIFY 5.3/rnn/mnist/h16/m7/relu
+[2026-06-29 12:52:16] DONE 5.3/rnn/mnist/h16/m7/relu {'zs_better': 11, 'both_fail': 3, 'pq_all_pass': 36} (21.6s)
+[2026-06-29 12:52:16] [24/96] 5.3/rnn/mnist/h16/m7/tanh
+[2026-06-29 12:52:16] VERIFY 5.3/rnn/mnist/h16/m7/tanh
+[2026-06-29 12:53:59] DONE 5.3/rnn/mnist/h16/m7/tanh {'zs_better': 21, 'both_fail': 7, 'pq_all_pass': 22} (102.2s)
+[2026-06-29 12:53:59] [25/96] 5.3/rnn/mnist/h32/m1/relu
+[2026-06-29 12:53:59] VERIFY 5.3/rnn/mnist/h32/m1/relu
+[2026-06-29 12:54:01] DONE 5.3/rnn/mnist/h32/m1/relu {'zs_better': 0, 'both_fail': 0, 'pq_all_pass': 50} (2.6s)
+[2026-06-29 12:54:01] [26/96] 5.3/rnn/mnist/h32/m1/tanh
+[2026-06-29 12:54:01] VERIFY 5.3/rnn/mnist/h32/m1/tanh
+[2026-06-29 12:54:06] DONE 5.3/rnn/mnist/h32/m1/tanh {'zs_better': 2, 'both_fail': 1, 'pq_all_pass': 47} (4.4s)
+[2026-06-29 12:54:06] [27/96] 5.3/rnn/mnist/h32/m2/relu
+[2026-06-29 12:54:06] VERIFY 5.3/rnn/mnist/h32/m2/relu
+[2026-06-29 12:54:16] DONE 5.3/rnn/mnist/h32/m2/relu {'zs_better': 1, 'both_fail': 7, 'pq_all_pass': 42} (10.4s)
+[2026-06-29 12:54:16] [28/96] 5.3/rnn/mnist/h32/m2/tanh
+[2026-06-29 12:54:16] VERIFY 5.3/rnn/mnist/h32/m2/tanh
+[2026-06-29 12:54:20] DONE 5.3/rnn/mnist/h32/m2/tanh {'zs_better': 5, 'both_fail': 0, 'pq_all_pass': 45} (4.4s)
+[2026-06-29 12:54:20] [29/96] 5.3/rnn/mnist/h32/m4/relu
+[2026-06-29 12:54:20] VERIFY 5.3/rnn/mnist/h32/m4/relu
+[2026-06-29 12:54:34] DONE 5.3/rnn/mnist/h32/m4/relu {'zs_better': 2, 'both_fail': 1, 'pq_all_pass': 47} (13.4s)
+[2026-06-29 12:54:34] [30/96] 5.3/rnn/mnist/h32/m4/tanh
+[2026-06-29 12:54:34] VERIFY 5.3/rnn/mnist/h32/m4/tanh
+[2026-06-29 12:54:45] DONE 5.3/rnn/mnist/h32/m4/tanh {'zs_better': 9, 'both_fail': 0, 'pq_all_pass': 41} (11.6s)
+[2026-06-29 12:54:45] [31/96] 5.3/rnn/mnist/h32/m7/relu
+[2026-06-29 12:54:45] VERIFY 5.3/rnn/mnist/h32/m7/relu
+[2026-06-29 12:55:16] DONE 5.3/rnn/mnist/h32/m7/relu {'zs_better': 3, 'both_fail': 2, 'pq_all_pass': 45} (30.7s)
+[2026-06-29 12:55:16] [32/96] 5.3/rnn/mnist/h32/m7/tanh
+[2026-06-29 12:55:16] VERIFY 5.3/rnn/mnist/h32/m7/tanh
+[2026-06-29 12:55:44] DONE 5.3/rnn/mnist/h32/m7/tanh {'zs_better': 41, 'both_fail': 0, 'pq_all_pass': 9} (27.8s)
+[2026-06-29 12:55:44] [33/96] 5.1/rnn/cifar10/h16/m8/relu
+[2026-06-29 12:55:44] VERIFY 5.1/rnn/cifar10/h16/m8/relu
+[2026-06-29 12:56:31] DONE 5.1/rnn/cifar10/h16/m8/relu {'zs_better': 25, 'both_fail': 18, 'pq_all_pass': 7} (47.7s)
+[2026-06-29 12:56:31] [34/96] 5.1/rnn/cifar10/h16/m8/tanh
+[2026-06-29 12:56:31] VERIFY 5.1/rnn/cifar10/h16/m8/tanh
+[2026-06-29 12:59:36] DONE 5.1/rnn/cifar10/h16/m8/tanh {'zs_better': 36, 'both_fail': 14, 'pq_all_pass': 0} (184.2s)
+[2026-06-29 12:59:36] [35/96] 5.1/rnn/cifar10/h16/m12/relu
+[2026-06-29 12:59:36] VERIFY 5.1/rnn/cifar10/h16/m12/relu
+[2026-06-29 13:01:10] DONE 5.1/rnn/cifar10/h16/m12/relu {'zs_better': 18, 'both_fail': 29, 'pq_all_pass': 3} (94.7s)
+[2026-06-29 13:01:10] [36/96] 5.1/rnn/cifar10/h16/m12/tanh
+[2026-06-29 13:01:10] VERIFY 5.1/rnn/cifar10/h16/m12/tanh
+[2026-06-29 13:05:37] DONE 5.1/rnn/cifar10/h16/m12/tanh {'zs_better': 34, 'both_fail': 16, 'pq_all_pass': 0} (266.2s)
+[2026-06-29 13:05:37] [37/96] 5.1/rnn/cifar10/h16/m24/relu
+[2026-06-29 13:05:37] VERIFY 5.1/rnn/cifar10/h16/m24/relu
+[2026-06-29 13:10:54] DONE 5.1/rnn/cifar10/h16/m24/relu {'zs_better': 12, 'both_fail': 38, 'pq_all_pass': 0} (317.1s)
+[2026-06-29 13:10:54] [38/96] 5.1/rnn/cifar10/h16/m24/tanh
+[2026-06-29 13:10:54] VERIFY 5.1/rnn/cifar10/h16/m24/tanh
+[2026-06-29 13:24:23] DONE 5.1/rnn/cifar10/h16/m24/tanh {'zs_better': 22, 'both_fail': 28, 'pq_all_pass': 0} (809.2s)
+[2026-06-29 13:24:23] [39/96] 5.1/rnn/cifar10/h16/m32/relu
+[2026-06-29 13:24:23] VERIFY 5.1/rnn/cifar10/h16/m32/relu
+[2026-06-29 13:31:08] DONE 5.1/rnn/cifar10/h16/m32/relu {'zs_better': 19, 'both_fail': 31, 'pq_all_pass': 0} (405.5s)
+[2026-06-29 13:31:08] [40/96] 5.1/rnn/cifar10/h16/m32/tanh
+[2026-06-29 13:31:08] VERIFY 5.1/rnn/cifar10/h16/m32/tanh
+[2026-06-29 13:57:52] DONE 5.1/rnn/cifar10/h16/m32/tanh {'zs_better': 16, 'both_fail': 34, 'pq_all_pass': 0} (1603.2s)
+[2026-06-29 13:57:52] [41/96] 5.1/rnn/cifar10/h32/m8/relu
+[2026-06-29 13:57:52] VERIFY 5.1/rnn/cifar10/h32/m8/relu
+[2026-06-29 13:58:32] DONE 5.1/rnn/cifar10/h32/m8/relu {'zs_better': 35, 'both_fail': 12, 'pq_all_pass': 3} (40.2s)
+[2026-06-29 13:58:32] [42/96] 5.1/rnn/cifar10/h32/m8/tanh
+[2026-06-29 13:58:32] VERIFY 5.1/rnn/cifar10/h32/m8/tanh
+[2026-06-29 14:02:30] DONE 5.1/rnn/cifar10/h32/m8/tanh {'zs_better': 29, 'both_fail': 21, 'pq_all_pass': 0} (238.7s)
+[2026-06-29 14:02:30] [43/96] 5.1/rnn/cifar10/h32/m12/relu
+[2026-06-29 14:02:30] VERIFY 5.1/rnn/cifar10/h32/m12/relu
+[2026-06-29 14:04:05] DONE 5.1/rnn/cifar10/h32/m12/relu {'zs_better': 23, 'both_fail': 27, 'pq_all_pass': 0} (95.0s)
+[2026-06-29 14:04:05] [44/96] 5.1/rnn/cifar10/h32/m12/tanh
+[2026-06-29 14:04:05] VERIFY 5.1/rnn/cifar10/h32/m12/tanh
+[2026-06-29 14:10:36] DONE 5.1/rnn/cifar10/h32/m12/tanh {'zs_better': 28, 'both_fail': 22, 'pq_all_pass': 0} (390.6s)
+[2026-06-29 14:10:36] [45/96] 5.1/rnn/cifar10/h32/m24/relu
+[2026-06-29 14:10:36] VERIFY 5.1/rnn/cifar10/h32/m24/relu
+[2026-06-29 14:15:33] DONE 5.1/rnn/cifar10/h32/m24/relu {'zs_better': 17, 'both_fail': 33, 'pq_all_pass': 0} (297.3s)
+[2026-06-29 14:15:33] [46/96] 5.1/rnn/cifar10/h32/m24/tanh
+[2026-06-29 14:15:33] VERIFY 5.1/rnn/cifar10/h32/m24/tanh
+[2026-06-29 14:34:48] DONE 5.1/rnn/cifar10/h32/m24/tanh {'zs_better': 15, 'both_fail': 35, 'pq_all_pass': 0} (1154.6s)
+[2026-06-29 14:34:48] [47/96] 5.1/rnn/cifar10/h32/m32/relu
+[2026-06-29 14:34:48] VERIFY 5.1/rnn/cifar10/h32/m32/relu
+[2026-06-29 14:40:12] DONE 5.1/rnn/cifar10/h32/m32/relu {'zs_better': 20, 'both_fail': 30, 'pq_all_pass': 0} (324.4s)
+[2026-06-29 14:40:12] [48/96] 5.1/rnn/cifar10/h32/m32/tanh
+[2026-06-29 14:40:12] VERIFY 5.1/rnn/cifar10/h32/m32/tanh
+[2026-06-29 15:12:11] DONE 5.1/rnn/cifar10/h32/m32/tanh {'zs_better': 12, 'both_fail': 38, 'pq_all_pass': 0} (1918.4s)
+[2026-06-29 15:12:11] [49/96] 5.1/rnn/cifar10/h64/m8/relu
+[2026-06-29 15:12:11] VERIFY 5.1/rnn/cifar10/h64/m8/relu
+[2026-06-29 15:13:02] DONE 5.1/rnn/cifar10/h64/m8/relu {'zs_better': 32, 'both_fail': 18, 'pq_all_pass': 0} (51.6s)
+[2026-06-29 15:13:02] [50/96] 5.1/rnn/cifar10/h64/m8/tanh
+[2026-06-29 15:13:02] VERIFY 5.1/rnn/cifar10/h64/m8/tanh
+[2026-06-29 15:17:56] DONE 5.1/rnn/cifar10/h64/m8/tanh {'zs_better': 29, 'both_fail': 21, 'pq_all_pass': 0} (293.1s)
+[2026-06-29 15:17:56] [51/96] 5.1/rnn/cifar10/h64/m12/relu
+[2026-06-29 15:17:56] VERIFY 5.1/rnn/cifar10/h64/m12/relu
+[2026-06-29 15:19:28] DONE 5.1/rnn/cifar10/h64/m12/relu {'zs_better': 26, 'both_fail': 24, 'pq_all_pass': 0} (92.7s)
+[2026-06-29 15:19:28] [52/96] 5.1/rnn/cifar10/h64/m12/tanh
+[2026-06-29 15:19:28] VERIFY 5.1/rnn/cifar10/h64/m12/tanh
+[2026-06-29 15:31:30] DONE 5.1/rnn/cifar10/h64/m12/tanh {'zs_better': 14, 'both_fail': 36, 'pq_all_pass': 0} (722.3s)
+[2026-06-29 15:31:30] [53/96] 5.1/rnn/cifar10/h64/m24/relu
+[2026-06-29 15:31:30] VERIFY 5.1/rnn/cifar10/h64/m24/relu
+[2026-06-29 15:37:35] DONE 5.1/rnn/cifar10/h64/m24/relu {'zs_better': 12, 'both_fail': 38, 'pq_all_pass': 0} (364.7s)
+[2026-06-29 15:37:35] [54/96] 5.1/rnn/cifar10/h64/m24/tanh
+[2026-06-29 15:37:35] VERIFY 5.1/rnn/cifar10/h64/m24/tanh
+[2026-06-29 16:03:12] DONE 5.1/rnn/cifar10/h64/m24/tanh {'zs_better': 10, 'both_fail': 40, 'pq_all_pass': 0} (1536.5s)
+[2026-06-29 16:03:12] [55/96] 5.1/rnn/cifar10/h64/m32/relu
+[2026-06-29 16:03:12] VERIFY 5.1/rnn/cifar10/h64/m32/relu
+[2026-06-29 16:12:00] DONE 5.1/rnn/cifar10/h64/m32/relu {'zs_better': 14, 'both_fail': 36, 'pq_all_pass': 0} (528.7s)
+[2026-06-29 16:12:00] [56/96] 5.1/rnn/cifar10/h64/m32/tanh
+[2026-06-29 16:12:00] VERIFY 5.1/rnn/cifar10/h64/m32/tanh
+[2026-06-29 16:48:25] DONE 5.1/rnn/cifar10/h64/m32/tanh {'zs_better': 3, 'both_fail': 47, 'pq_all_pass': 0} (2184.3s)
+[2026-06-29 16:48:25] [57/96] 5.1/rnn/cifar10/h128/m8/relu
+[2026-06-29 16:48:25] VERIFY 5.1/rnn/cifar10/h128/m8/relu
+[2026-06-29 16:49:26] DONE 5.1/rnn/cifar10/h128/m8/relu {'zs_better': 30, 'both_fail': 20, 'pq_all_pass': 0} (61.4s)
+[2026-06-29 16:49:26] [58/96] 5.1/rnn/cifar10/h128/m8/tanh
+[2026-06-29 16:49:26] VERIFY 5.1/rnn/cifar10/h128/m8/tanh
+[2026-06-29 16:55:12] DONE 5.1/rnn/cifar10/h128/m8/tanh {'zs_better': 24, 'both_fail': 26, 'pq_all_pass': 0} (345.6s)
+[2026-06-29 16:55:12] [59/96] 5.1/rnn/cifar10/h128/m12/relu
+[2026-06-29 16:55:12] VERIFY 5.1/rnn/cifar10/h128/m12/relu
+[2026-06-29 16:57:14] DONE 5.1/rnn/cifar10/h128/m12/relu {'zs_better': 20, 'both_fail': 30, 'pq_all_pass': 0} (122.7s)
+[2026-06-29 16:57:14] [60/96] 5.1/rnn/cifar10/h128/m12/tanh
+[2026-06-29 16:57:14] VERIFY 5.1/rnn/cifar10/h128/m12/tanh
+[2026-06-29 17:10:19] DONE 5.1/rnn/cifar10/h128/m12/tanh {'zs_better': 13, 'both_fail': 37, 'pq_all_pass': 0} (784.5s)
+[2026-06-29 17:10:19] [61/96] 5.1/rnn/cifar10/h128/m24/relu
+[2026-06-29 17:10:19] VERIFY 5.1/rnn/cifar10/h128/m24/relu
+[2026-06-29 17:18:12] DONE 5.1/rnn/cifar10/h128/m24/relu {'zs_better': 9, 'both_fail': 41, 'pq_all_pass': 0} (472.8s)
+[2026-06-29 17:18:12] [62/96] 5.1/rnn/cifar10/h128/m24/tanh
+[2026-06-29 17:18:12] VERIFY 5.1/rnn/cifar10/h128/m24/tanh
+[2026-06-29 17:54:43] DONE 5.1/rnn/cifar10/h128/m24/tanh {'zs_better': 0, 'both_fail': 50, 'pq_all_pass': 0} (2191.5s)
+[2026-06-29 17:54:43] [63/96] 5.1/rnn/cifar10/h128/m32/relu
+[2026-06-29 17:54:43] VERIFY 5.1/rnn/cifar10/h128/m32/relu
+[2026-06-29 18:07:30] DONE 5.1/rnn/cifar10/h128/m32/relu {'zs_better': 5, 'both_fail': 45, 'pq_all_pass': 0} (766.6s)
+[2026-06-29 18:07:30] [64/96] 5.1/rnn/cifar10/h128/m32/tanh
+[2026-06-29 18:07:30] VERIFY 5.1/rnn/cifar10/h128/m32/tanh
+[2026-06-29 18:49:45] DONE 5.1/rnn/cifar10/h128/m32/tanh {'zs_better': 3, 'both_fail': 47, 'pq_all_pass': 0} (2535.3s)
+[2026-06-29 18:49:45] [65/96] 5.2/rnn/mnist-seq/h16/m30/relu
+[2026-06-29 18:49:45] VERIFY 5.2/rnn/mnist-seq/h16/m30/relu
+[2026-06-29 18:54:40] DONE 5.2/rnn/mnist-seq/h16/m30/relu {'zs_better': 19, 'both_fail': 31, 'pq_all_pass': 0} (295.2s)
+[2026-06-29 18:54:40] [66/96] 5.2/rnn/mnist-seq/h16/m30/tanh
+[2026-06-29 18:54:40] VERIFY 5.2/rnn/mnist-seq/h16/m30/tanh
+[2026-06-29 19:06:18] DONE 5.2/rnn/mnist-seq/h16/m30/tanh {'zs_better': 42, 'both_fail': 8, 'pq_all_pass': 0} (697.4s)
+[2026-06-29 19:06:18] [67/96] 5.2/rnn/mnist-seq/h16/m35/relu
+[2026-06-29 19:06:18] VERIFY 5.2/rnn/mnist-seq/h16/m35/relu
+[2026-06-29 19:12:19] DONE 5.2/rnn/mnist-seq/h16/m35/relu {'zs_better': 17, 'both_fail': 32, 'pq_all_pass': 1} (361.5s)
+[2026-06-29 19:12:19] [68/96] 5.2/rnn/mnist-seq/h16/m35/tanh
+[2026-06-29 19:12:19] VERIFY 5.2/rnn/mnist-seq/h16/m35/tanh
+[2026-06-29 19:36:08] DONE 5.2/rnn/mnist-seq/h16/m35/tanh {'zs_better': 21, 'both_fail': 29, 'pq_all_pass': 0} (1428.4s)
+[2026-06-29 19:36:08] [69/96] 5.2/rnn/mnist-seq/h16/m40/relu
+[2026-06-29 19:36:08] VERIFY 5.2/rnn/mnist-seq/h16/m40/relu
+[2026-06-29 19:43:17] DONE 5.2/rnn/mnist-seq/h16/m40/relu {'zs_better': 21, 'both_fail': 29, 'pq_all_pass': 0} (429.2s)
+[2026-06-29 19:43:17] [70/96] 5.2/rnn/mnist-seq/h16/m40/tanh
+[2026-06-29 19:43:17] VERIFY 5.2/rnn/mnist-seq/h16/m40/tanh
+[2026-06-29 20:12:37] DONE 5.2/rnn/mnist-seq/h16/m40/tanh {'zs_better': 22, 'both_fail': 28, 'pq_all_pass': 0} (1760.6s)
+[2026-06-29 20:12:37] [71/96] 5.2/rnn/mnist-seq/h16/m45/relu
+[2026-06-29 20:12:37] VERIFY 5.2/rnn/mnist-seq/h16/m45/relu
+[2026-06-29 20:25:52] DONE 5.2/rnn/mnist-seq/h16/m45/relu {'zs_better': 2, 'both_fail': 48, 'pq_all_pass': 0} (794.3s)
+[2026-06-29 20:25:52] [72/96] 5.2/rnn/mnist-seq/h16/m45/tanh
+[2026-06-29 20:25:52] VERIFY 5.2/rnn/mnist-seq/h16/m45/tanh
+[2026-06-29 20:56:47] DONE 5.2/rnn/mnist-seq/h16/m45/tanh {'zs_better': 18, 'both_fail': 32, 'pq_all_pass': 0} (1855.0s)
+[2026-06-29 20:56:47] [73/96] 5.2/rnn/mnist-seq/h32/m30/relu
+[2026-06-29 20:56:47] VERIFY 5.2/rnn/mnist-seq/h32/m30/relu
+[2026-06-29 21:01:34] DONE 5.2/rnn/mnist-seq/h32/m30/relu {'zs_better': 22, 'both_fail': 28, 'pq_all_pass': 0} (287.2s)
+[2026-06-29 21:01:34] [74/96] 5.2/rnn/mnist-seq/h32/m30/tanh
+[2026-06-29 21:01:34] VERIFY 5.2/rnn/mnist-seq/h32/m30/tanh
+[2026-06-29 21:32:52] DONE 5.2/rnn/mnist-seq/h32/m30/tanh {'zs_better': 13, 'both_fail': 37, 'pq_all_pass': 0} (1877.7s)
+[2026-06-29 21:32:52] [75/96] 5.2/rnn/mnist-seq/h32/m35/relu
+[2026-06-29 21:32:52] VERIFY 5.2/rnn/mnist-seq/h32/m35/relu
+[2026-06-29 21:41:49] DONE 5.2/rnn/mnist-seq/h32/m35/relu {'zs_better': 7, 'both_fail': 43, 'pq_all_pass': 0} (537.9s)
+[2026-06-29 21:41:49] [76/96] 5.2/rnn/mnist-seq/h32/m35/tanh
+[2026-06-29 21:41:49] VERIFY 5.2/rnn/mnist-seq/h32/m35/tanh
+[2026-06-29 22:11:36] DONE 5.2/rnn/mnist-seq/h32/m35/tanh {'zs_better': 13, 'both_fail': 37, 'pq_all_pass': 0} (1786.6s)
+[2026-06-29 22:11:36] [77/96] 5.2/rnn/mnist-seq/h32/m40/relu
+[2026-06-29 22:11:36] VERIFY 5.2/rnn/mnist-seq/h32/m40/relu
+[2026-06-29 22:18:51] DONE 5.2/rnn/mnist-seq/h32/m40/relu {'zs_better': 20, 'both_fail': 30, 'pq_all_pass': 0} (434.9s)
+[2026-06-29 22:18:51] [78/96] 5.2/rnn/mnist-seq/h32/m40/tanh
+[2026-06-29 22:18:51] VERIFY 5.2/rnn/mnist-seq/h32/m40/tanh
+[2026-06-29 23:04:57] DONE 5.2/rnn/mnist-seq/h32/m40/tanh {'zs_better': 8, 'both_fail': 42, 'pq_all_pass': 0} (2765.9s)
+[2026-06-29 23:04:57] [79/96] 5.2/rnn/mnist-seq/h32/m45/relu
+[2026-06-29 23:04:57] VERIFY 5.2/rnn/mnist-seq/h32/m45/relu
+[2026-06-29 23:17:36] DONE 5.2/rnn/mnist-seq/h32/m45/relu {'zs_better': 14, 'both_fail': 36, 'pq_all_pass': 0} (759.4s)
+[2026-06-29 23:17:36] [80/96] 5.2/rnn/mnist-seq/h32/m45/tanh
+[2026-06-29 23:17:36] VERIFY 5.2/rnn/mnist-seq/h32/m45/tanh
+[2026-06-30 00:20:38] DONE 5.2/rnn/mnist-seq/h32/m45/tanh {'zs_better': 5, 'both_fail': 45, 'pq_all_pass': 0} (3781.7s)
+[2026-06-30 00:20:38] [81/96] 5.2/rnn/mnist-seq/h64/m30/relu
+[2026-06-30 00:20:38] VERIFY 5.2/rnn/mnist-seq/h64/m30/relu
+[2026-06-30 00:28:36] DONE 5.2/rnn/mnist-seq/h64/m30/relu {'zs_better': 9, 'both_fail': 41, 'pq_all_pass': 0} (478.4s)
+[2026-06-30 00:28:36] [82/96] 5.2/rnn/mnist-seq/h64/m30/tanh
+[2026-06-30 00:28:36] VERIFY 5.2/rnn/mnist-seq/h64/m30/tanh
+[2026-06-30 01:02:38] DONE 5.2/rnn/mnist-seq/h64/m30/tanh {'zs_better': 8, 'both_fail': 42, 'pq_all_pass': 0} (2041.3s)
+[2026-06-30 01:02:38] [83/96] 5.2/rnn/mnist-seq/h64/m35/relu
+[2026-06-30 01:02:38] VERIFY 5.2/rnn/mnist-seq/h64/m35/relu
+[2026-06-30 01:12:26] DONE 5.2/rnn/mnist-seq/h64/m35/relu {'zs_better': 9, 'both_fail': 41, 'pq_all_pass': 0} (588.2s)
+[2026-06-30 01:12:26] [84/96] 5.2/rnn/mnist-seq/h64/m35/tanh
+[2026-06-30 01:12:26] VERIFY 5.2/rnn/mnist-seq/h64/m35/tanh
+[2026-06-30 01:50:46] DONE 5.2/rnn/mnist-seq/h64/m35/tanh {'zs_better': 5, 'both_fail': 45, 'pq_all_pass': 0} (2299.7s)
+[2026-06-30 01:50:46] [85/96] 5.2/rnn/mnist-seq/h64/m40/relu
+[2026-06-30 01:50:46] VERIFY 5.2/rnn/mnist-seq/h64/m40/relu
+[2026-06-30 02:03:12] DONE 5.2/rnn/mnist-seq/h64/m40/relu {'zs_better': 4, 'both_fail': 46, 'pq_all_pass': 0} (746.1s)
+[2026-06-30 02:03:12] [86/96] 5.2/rnn/mnist-seq/h64/m40/tanh
+[2026-06-30 02:03:12] VERIFY 5.2/rnn/mnist-seq/h64/m40/tanh
+[2026-06-30 02:55:37] DONE 5.2/rnn/mnist-seq/h64/m40/tanh {'zs_better': 1, 'both_fail': 49, 'pq_all_pass': 0} (3145.6s)
+[2026-06-30 02:55:37] [87/96] 5.2/rnn/mnist-seq/h64/m45/relu
+[2026-06-30 02:55:37] VERIFY 5.2/rnn/mnist-seq/h64/m45/relu
+[2026-06-30 03:12:17] DONE 5.2/rnn/mnist-seq/h64/m45/relu {'zs_better': 2, 'both_fail': 48, 'pq_all_pass': 0} (999.8s)
+[2026-06-30 03:12:17] [88/96] 5.2/rnn/mnist-seq/h64/m45/tanh
+[2026-06-30 03:12:17] VERIFY 5.2/rnn/mnist-seq/h64/m45/tanh
+[2026-06-30 04:05:44] DONE 5.2/rnn/mnist-seq/h64/m45/tanh {'zs_better': 4, 'both_fail': 46, 'pq_all_pass': 0} (3206.4s)
+[2026-06-30 04:05:44] [89/96] 5.2/rnn/mnist-seq/h128/m30/relu
+[2026-06-30 04:05:44] VERIFY 5.2/rnn/mnist-seq/h128/m30/relu
+[2026-06-30 04:16:05] DONE 5.2/rnn/mnist-seq/h128/m30/relu {'zs_better': 5, 'both_fail': 45, 'pq_all_pass': 0} (621.1s)
+[2026-06-30 04:16:05] [90/96] 5.2/rnn/mnist-seq/h128/m30/tanh
+[2026-06-30 04:16:05] VERIFY 5.2/rnn/mnist-seq/h128/m30/tanh
+[2026-06-30 04:57:33] DONE 5.2/rnn/mnist-seq/h128/m30/tanh {'zs_better': 1, 'both_fail': 49, 'pq_all_pass': 0} (2488.5s)
+[2026-06-30 04:57:33] [91/96] 5.2/rnn/mnist-seq/h128/m35/relu
+[2026-06-30 04:57:33] VERIFY 5.2/rnn/mnist-seq/h128/m35/relu
+[2026-06-30 05:11:25] DONE 5.2/rnn/mnist-seq/h128/m35/relu {'zs_better': 4, 'both_fail': 46, 'pq_all_pass': 0} (832.0s)
+[2026-06-30 05:11:25] [92/96] 5.2/rnn/mnist-seq/h128/m35/tanh
+[2026-06-30 05:11:25] VERIFY 5.2/rnn/mnist-seq/h128/m35/tanh
+[2026-06-30 06:08:10] DONE 5.2/rnn/mnist-seq/h128/m35/tanh {'zs_better': 0, 'both_fail': 50, 'pq_all_pass': 0} (3405.3s)
+[2026-06-30 06:08:10] [93/96] 5.2/rnn/mnist-seq/h128/m40/relu
+[2026-06-30 06:08:10] VERIFY 5.2/rnn/mnist-seq/h128/m40/relu
+[2026-06-30 06:25:33] DONE 5.2/rnn/mnist-seq/h128/m40/relu {'zs_better': 2, 'both_fail': 48, 'pq_all_pass': 0} (1042.3s)
+[2026-06-30 06:25:33] [94/96] 5.2/rnn/mnist-seq/h128/m40/tanh
+[2026-06-30 06:25:33] VERIFY 5.2/rnn/mnist-seq/h128/m40/tanh
+[2026-06-30 07:31:10] DONE 5.2/rnn/mnist-seq/h128/m40/tanh {'zs_better': 0, 'both_fail': 50, 'pq_all_pass': 0} (3937.2s)
+[2026-06-30 07:31:10] [95/96] 5.2/rnn/mnist-seq/h128/m45/relu
+[2026-06-30 07:31:10] VERIFY 5.2/rnn/mnist-seq/h128/m45/relu
+[2026-06-30 07:52:52] DONE 5.2/rnn/mnist-seq/h128/m45/relu {'zs_better': 1, 'both_fail': 49, 'pq_all_pass': 0} (1302.3s)
+[2026-06-30 07:52:52] [96/96] 5.2/rnn/mnist-seq/h128/m45/tanh
+[2026-06-30 07:52:52] VERIFY 5.2/rnn/mnist-seq/h128/m45/tanh
+[2026-06-30 09:08:45] DONE 5.2/rnn/mnist-seq/h128/m45/tanh {'zs_better': 0, 'both_fail': 50, 'pq_all_pass': 0} (4552.8s)
+[2026-06-30 09:08:45] === run_authormodels 完畢 ===
