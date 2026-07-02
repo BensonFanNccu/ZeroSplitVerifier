@@ -1,0 +1,50 @@
+[2026-06-30 11:13:10] === run_author_lstm 啟動：16 配置 (Table 5.4, 作者 ReLU-LSTM) ===
+[2026-06-30 11:13:10] [1/16] 5.4-relu/lstm/mnist/h4/m1
+[2026-06-30 11:13:10] VERIFY 5.4-relu/lstm/mnist/h4/m1
+[2026-06-30 11:36:19] DONE 5.4-relu/lstm/mnist/h4/m1 {'zs_better': 6, 'both_fail': 18, 'pq_all_pass': 26} (1388.6s)
+[2026-06-30 11:36:19] [2/16] 5.4-relu/lstm/mnist/h4/m2
+[2026-06-30 11:36:19] VERIFY 5.4-relu/lstm/mnist/h4/m2
+[2026-06-30 12:52:06] DONE 5.4-relu/lstm/mnist/h4/m2 {'zs_better': 5, 'both_fail': 27, 'pq_all_pass': 18} (4547.4s)
+[2026-06-30 12:52:06] [3/16] 5.4-relu/lstm/mnist/h4/m4
+[2026-06-30 12:52:06] VERIFY 5.4-relu/lstm/mnist/h4/m4
+[2026-06-30 15:10:20] DONE 5.4-relu/lstm/mnist/h4/m4 {'zs_better': 16, 'both_fail': 31, 'pq_all_pass': 3} (8293.8s)
+[2026-06-30 15:10:20] [4/16] 5.4-relu/lstm/mnist/h4/m7
+[2026-06-30 15:10:20] VERIFY 5.4-relu/lstm/mnist/h4/m7
+[2026-06-30 19:00:37] DONE 5.4-relu/lstm/mnist/h4/m7 {'zs_better': 4, 'both_fail': 42, 'pq_all_pass': 4} (13816.7s)
+[2026-06-30 19:00:37] [5/16] 5.4-relu/lstm/mnist/h8/m1
+[2026-06-30 19:00:37] VERIFY 5.4-relu/lstm/mnist/h8/m1
+[2026-06-30 19:27:07] DONE 5.4-relu/lstm/mnist/h8/m1 {'zs_better': 9, 'both_fail': 13, 'pq_all_pass': 28} (1589.8s)
+[2026-06-30 19:27:07] [6/16] 5.4-relu/lstm/mnist/h8/m2
+[2026-06-30 19:27:07] VERIFY 5.4-relu/lstm/mnist/h8/m2
+[2026-06-30 20:24:31] DONE 5.4-relu/lstm/mnist/h8/m2 {'zs_better': 5, 'both_fail': 6, 'pq_all_pass': 39} (3444.7s)
+[2026-06-30 20:24:31] [7/16] 5.4-relu/lstm/mnist/h8/m4
+[2026-06-30 20:24:31] VERIFY 5.4-relu/lstm/mnist/h8/m4
+[2026-06-30 22:27:31] DONE 5.4-relu/lstm/mnist/h8/m4 {'zs_better': 18, 'both_fail': 24, 'pq_all_pass': 8} (7379.9s)
+[2026-06-30 22:27:31] [8/16] 5.4-relu/lstm/mnist/h8/m7
+[2026-06-30 22:27:31] VERIFY 5.4-relu/lstm/mnist/h8/m7
+[2026-07-01 03:25:04] DONE 5.4-relu/lstm/mnist/h8/m7 {'zs_better': 10, 'both_fail': 40, 'pq_all_pass': 0} (17852.1s)
+[2026-07-01 03:25:04] [9/16] 5.4-relu/lstm/mnist/h16/m1
+[2026-07-01 03:25:04] VERIFY 5.4-relu/lstm/mnist/h16/m1
+[2026-07-01 03:53:03] DONE 5.4-relu/lstm/mnist/h16/m1 {'zs_better': 6, 'both_fail': 1, 'pq_all_pass': 43} (1679.6s)
+[2026-07-01 03:53:03] [10/16] 5.4-relu/lstm/mnist/h16/m2
+[2026-07-01 03:53:03] VERIFY 5.4-relu/lstm/mnist/h16/m2
+[2026-07-01 04:43:44] DONE 5.4-relu/lstm/mnist/h16/m2 {'zs_better': 1, 'both_fail': 4, 'pq_all_pass': 45} (3041.3s)
+[2026-07-01 04:43:44] [11/16] 5.4-relu/lstm/mnist/h16/m4
+[2026-07-01 04:43:44] VERIFY 5.4-relu/lstm/mnist/h16/m4
+[2026-07-01 06:51:59] FAIL 5.4-relu/lstm/mnist/h16/m4 rc=1
+[2026-07-01 06:51:59] [12/16] 5.4-relu/lstm/mnist/h16/m7
+[2026-07-01 06:51:59] VERIFY 5.4-relu/lstm/mnist/h16/m7
+[2026-07-01 12:09:56] DONE 5.4-relu/lstm/mnist/h16/m7 {'zs_better': 10, 'both_fail': 40, 'pq_all_pass': 0} (19076.8s)
+[2026-07-01 12:09:56] [13/16] 5.4-relu/lstm/mnist/h32/m1
+[2026-07-01 12:09:56] VERIFY 5.4-relu/lstm/mnist/h32/m1
+[2026-07-01 12:44:25] DONE 5.4-relu/lstm/mnist/h32/m1 {'zs_better': 1, 'both_fail': 3, 'pq_all_pass': 46} (2068.9s)
+[2026-07-01 12:44:25] [14/16] 5.4-relu/lstm/mnist/h32/m2
+[2026-07-01 12:44:25] VERIFY 5.4-relu/lstm/mnist/h32/m2
+[2026-07-01 13:49:24] DONE 5.4-relu/lstm/mnist/h32/m2 {'zs_better': 0, 'both_fail': 2, 'pq_all_pass': 48} (3898.9s)
+[2026-07-01 13:49:24] [15/16] 5.4-relu/lstm/mnist/h32/m4
+[2026-07-01 13:49:24] VERIFY 5.4-relu/lstm/mnist/h32/m4
+[2026-07-01 15:51:47] DONE 5.4-relu/lstm/mnist/h32/m4 {'zs_better': 4, 'both_fail': 10, 'pq_all_pass': 36} (7343.6s)
+[2026-07-01 15:51:47] [16/16] 5.4-relu/lstm/mnist/h32/m7
+[2026-07-01 15:51:47] VERIFY 5.4-relu/lstm/mnist/h32/m7
+[2026-07-01 21:33:12] DONE 5.4-relu/lstm/mnist/h32/m7 {'zs_better': 8, 'both_fail': 41, 'pq_all_pass': 1} (20484.2s)
+[2026-07-01 21:33:12] === run_author_lstm 完畢 ===
