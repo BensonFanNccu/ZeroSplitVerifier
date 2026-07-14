@@ -39,7 +39,7 @@ def load(dirn, lstm=False):
     return out
 
 cif = load("rnn_cifar10"); seq = load("rnn_seq")
-mni = load("rnn_mnist");   lstm = load("lstm_mnist", lstm=True)
+mni = load("rnn_mnist");   lstm = load("author_lstm_v2", lstm=True)  # 表5.4=作者 ReLU-LSTM, eps 0.01-0.3
 # Fig 5.1/5.2/5.3 把 CIFAR(8-32)+Stroke(30-45) 合到同一軸
 comb = {**cif, **seq}
 MS_COMB = [8, 12, 24, 32, 30, 35, 40, 45]; MS_COMB = sorted(set(MS_COMB))
@@ -102,7 +102,7 @@ def fig53():
 def fig54():
     M = [1, 2, 4, 7]; H = [4, 8, 16, 32]
     colors = {4:"tab:blue", 8:"tab:orange", 16:"tab:green", 32:"tab:red"}
-    panels = [("(a) ReLU RNN", mni, "relu"), ("(b) Tanh RNN", mni, "tanh"), ("(c) LSTM", lstm, "lstm")]
+    panels = [("(a) ReLU RNN", mni, "relu"), ("(b) Tanh RNN", mni, "tanh"), ("(c) ReLU-LSTM (Table 5.4)", lstm, "lstm")]
     fig, ax = plt.subplots(1, 3, figsize=(16, 4.4))
     for i, (title, src, act) in enumerate(panels):
         for h in H:
@@ -112,7 +112,7 @@ def fig54():
             ax[i].plot(xs, [src[(m,act,h)]["refine"]   for m in xs], "--", color=colors[h], marker="s", ms=4, label=f"h={h} refine")
         ax[i].set_title(title); ax[i].set_xlabel("Timestep (m)"); ax[i].grid(alpha=.3); ax[i].set_yscale("log")
     ax[0].set_ylabel("Avg. Computation Time (CPU-s)/sample, log"); ax[0].legend(fontsize=6, ncol=2)
-    fig.suptitle("Fig 5.4 (repro) - RNN(relu/tanh) & LSTM on MNIST; solid=no-refine dashed=refine; (d) GenBaB not run; trend only")
+    fig.suptitle("Fig 5.4 (repro) - RNN(relu/tanh) & ReLU-LSTM(Table 5.4, eps 0.01-0.3) on MNIST; solid=no-refine dashed=refine; (d) GenBaB not run; trend only")
     fig.tight_layout(); fig.savefig(f"{OUT}/fig5_4_repro.png", dpi=110); plt.close(fig)
     trends.append("Fig5.4: LSTM ≫ vanilla RNN(數量級)、refine>no-refine、隨m上升 ✓；缺GenBaB(d)")
 
